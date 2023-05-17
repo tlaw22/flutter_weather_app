@@ -28,7 +28,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {   // this package create a spinning loading animation
     return Scaffold(
       body: Center(
         child: SpinKitDoubleBounce(
